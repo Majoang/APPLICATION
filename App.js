@@ -88,7 +88,7 @@ export default function App() {
         
       
 
-      {list.map(item => transform(item))}
+      <Text>{list.map(item => transform(item))}</Text>
     </View>
   );
 }
